@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Data</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-image: url('file:/C:/Users/Praveen Kumar S/Pictures/PP.webp');
+            background-size: cover;
+            background-position: center;
+        }
+
+        h1 {
+            color: #060707;
+            text-align: center;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+
+        #user-table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        #user-table th, #user-table td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+
+        #user-dropdown {
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>User Details</h1>
+    <table id="user-table">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>First Name</th>
+                <th>Last Name</th>
+                <th>Birth Date</th>
+                <th>Email</th>
+                <th>Postal Code</th>
+            </tr>
+        </thead>
+        <tbody id="user-details">
+            <!-- Data rows will be inserted here -->
+        </tbody>
+    </table>
+
+    <label for="user-dropdown">Select User:</label>
+    <select id="user-dropdown"></select>
+
+    <script src="Task4.js"></script>
+</body>
+</html>
